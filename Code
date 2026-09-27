@@ -1,0 +1,18 @@
+class Father:
+    def skills(self):
+        print("Father: Driving")
+        print("Father: Gardening")
+
+class Mother:
+    def talent(self):
+        print("Mother: Singing")
+        print("Mother: Cooking")
+
+class Child(Father, Mother):
+    def hobby(self):
+        print("Child: Painting")
+
+child = Child()
+child.skills()
+child.talent()
+child.hobby()
